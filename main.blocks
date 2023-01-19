@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="rg*al)8h^HuF2.sn](ta" x="-84" y="44"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="soundExpression_playSoundEffect" id="d1%d_;99;Gom3(h.cSv|"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="%03dj{+!Lj,3F:~lGyUr"><field name="soundExpression">soundExpression.giggle</field></shadow></value></block></statement></block><block type="device_button_event" id="PYDlS+;`9eY8*eBUczZp" x="251" y="48"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="wj,)CZVofHF?k4hxChNc"><field name="LEDS">`
+        # # # . . 
+        # # # . . 
+        # # # . . 
+        # . . # # 
+        # . . # #
+        `</field></block></statement></block><block type="device_button_event" id="dWF*ppDq]r)]0129=Iz," x="539" y="49"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="m|U7@}:gGF?WyvQFb;/S"><field name="LEDS">`
+        # # . . . 
+        # # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="device_gesture_event" id="G|=hb10OkVW9[M;sNj5X" x="45" y="183"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="music_stop_all_sounds" id="*)mx!vRb;FxBbS,EkTas"></block></statement></block><block type="input_on_sound" id="HS/mhm=d[XFgTvR=@b6D" x="230" y="201"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="basic_show_arrow" id="PG7-$TGvkY(;~F8M*V5O"><value name="i"><shadow type="device_arrow" id=";;eJ?pVRWF9A,czRqhhu"><field name="arrow">ArrowNames.SouthEast</field></shadow></value></block></statement></block></xml>
