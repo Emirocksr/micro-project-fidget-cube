@@ -1,27 +1,27 @@
 input.onButtonPressed(Button.A, function () {
-    music.playSoundEffect(music.builtinSoundEffect(soundExpression.giggle), SoundExpressionPlayMode.UntilDone)
+    basic.showLeds(`
+        # . # . #
+        # . # . #
+        # # # . #
+        # . # . #
+        # . # . #
+        `)
 })
 input.onSound(DetectedSound.Loud, function () {
-    basic.showArrow(ArrowNames.SouthEast)
+    music.playMelody("E B G A B G A F ", 120)
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showLeds(`
-        # # . . .
-        # # . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
+    basic.showNumber(69)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
+        . . # # #
+        . # . # #
+        # . # . #
+        # # . # .
         # # # . .
-        # # # . .
-        # # # . .
-        # . . # #
-        # . . # #
         `)
 })
 input.onGesture(Gesture.Shake, function () {
-    music.stopAllSounds()
+    basic.showString("Hold up.... Let him COOK")
 })
