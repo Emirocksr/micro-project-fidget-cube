@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     basic.showLeds(`
-        # . # . #
+        . . # . #
         # . # . #
         # # # . #
         # . # . #
@@ -8,7 +8,7 @@ input.onButtonPressed(Button.A, function () {
         `)
 })
 input.onSound(DetectedSound.Loud, function () {
-    music.playMelody("E B G A B G A F ", 120)
+    music.playMelody("C D E C F F B F ", 80)
 })
 input.onButtonPressed(Button.AB, function () {
     basic.showNumber(69)
